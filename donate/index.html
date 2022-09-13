@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Bank of Spark Foundation</title>
+</head>
+<body>
+    <section class="header" >
+        <nav>
+            <a href="index.html"> <img src="img/logo.png"class="img-logo"></a>
+            <div class="img-logo">
+                <strong>The Spark Foundation Donation Drive</strong>
+                <br>
+                <span>...Inspiring, Innovating, Integrating</span>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="index.html">ABOUT US</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"onclick="showMenu()"></i>
+        </nav>
+
+ <div class="text-box">
+     <h1>Spark Donation Drive</h1><br>
+     <p>
+        Change will not come if we wait for some other person or some other time.<br> We are the ones we have been waiting for. We are the change that we seek.
+     </p>
+     <a href="https://rzp.io/l/dYM8stZcte" class="hero-btn" >Donate</a>
+ </div>
+
+</section>
+
+<!-- footer -->
+
+<section class="footer">
+    <h4>About us</h4>
+    <p>
+        A bank is a financial institution that accepts deposits from the <br>public and creates a demand deposit while simultaneously making loans.
+    </p>
+
+    <div class="icons">
+        <a href="https:linkedin.com/in/ritesh-gore-1020b9174" i class="fa fa-github" ></a>
+        <a href="https:linkedin.com/in/ritesh-gore-1020b9174" i class="fa fa-linkedin-square"></a>
+        <a href="https://twitter.com/RiteshRameshGo1?t=wnNSGqsYUG_50D1oJYYQyA&s=08" i class="fa fa-twitter-square"></a>
+        <a href="https://www.instagram.com/invites/contact/?i=3p9dj5039sqi&utm_content=2ntlx5u" i class="fa fa-instagram"></a>
+        <a href="https://www.facebook.com/ritesh.gore.900" i class="fa fa-facebook-square"></a>
+    </div>
+    <p>made by <i class="fa fa-heart-o"></i>Ritesh Gore</p>
+</section>
+
+<!-- Javascript for toggle menu -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+     }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+     }
+
+</script>
+</body>
+</html>
